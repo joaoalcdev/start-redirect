@@ -2,9 +2,6 @@
 import React, { useEffect, useState } from "react"
 import Head from 'next/head'
 import Router, { useRouter } from 'next/router'
-import { GetServerSideProps } from 'next';
-
-// import { HomeStyle } from '../styles/HomeStyle'
 
 const Home: React.FC = (props: any) => {
   const [loaded, setLoaded] = useState(false)
@@ -13,7 +10,7 @@ const Home: React.FC = (props: any) => {
     // conditional redirect
     if (pathname == '/') {
       // router.push
-      Router.replace('https://www.google.com')
+      Router.replace('https://hotm.art/startenglishacademy')
     } else {
       setLoaded(true)
     }
