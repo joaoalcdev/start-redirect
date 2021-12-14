@@ -1,0 +1,131 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-11-23T01:12:14.627Z",
+  "__export_source": "insomnia.desktop.app:v2021.6.0",
+  "resources": [
+    {
+      "_id": "req_5f8c90d40f2f41c59e20ccfb25a14145",
+      "parentId": "wrk_a11e08458db54797b7605425d3a3f3b0",
+      "modified": 1637629824675,
+      "created": 1637629182480,
+      "url": "https://us20.api.mailchimp.com/3.0/lists/17cbe5a34e/members",
+      "name": "Using basic authentication",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {
+        "type": "basic",
+        "useISO88591": false,
+        "disabled": false,
+        "username": "glauberfc",
+        "password": "df4b68b2d126e84c8c7e147826456ed2-us4"
+      },
+      "metaSortKey": -1637629182480,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_a11e08458db54797b7605425d3a3f3b0",
+      "parentId": null,
+      "modified": 1637629867269,
+      "created": 1637629176398,
+      "name": "Mailchimp Marketing API",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_cc8a9afa840d463380bc08ff164d02a4",
+      "parentId": "wrk_a11e08458db54797b7605425d3a3f3b0",
+      "modified": 1637629846368,
+      "created": 1637629836820,
+      "url": "https://us20.api.mailchimp.com/3.0/lists/17cbe5a34e/members",
+      "name": "Using Bearer token",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {
+        "type": "bearer",
+        "token": "df4b68b2d126e84c8c7e147826456ed2-us4"
+      },
+      "metaSortKey": -1637445238173,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_1947448ee346850a4c79b2f51c42c42a6a5b65f7",
+      "parentId": "wrk_a11e08458db54797b7605425d3a3f3b0",
+      "modified": 1637629176410,
+      "created": 1637629176410,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1637629176410,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_1947448ee346850a4c79b2f51c42c42a6a5b65f7",
+      "parentId": "wrk_a11e08458db54797b7605425d3a3f3b0",
+      "modified": 1637629850307,
+      "created": 1637629176413,
+      "name": "Default Jar",
+      "cookies": [
+        {
+          "key": "ak_bmsc",
+          "value": "604F0BE3F616ACBC5D97BD8D4A43DAB6~000000000000000000000000000000~YAAQLqQSAqos8DB9AQAA3edOSg3Wn57FRKsEZPwidsgUWx8NiZxgGx1N7mSHg/aBLqMVVIDJRStvgZBZFB4tUnbTD+6OlmJy/xFUYOhBCgUqyoMzWzIA5EsUqvtBfpMROdg09bvb5T3iKO+t6evt3ykfAmJJcmHARAIX9+Ee2nGjgH0k0L7/UjeFf0BK8Jvz1lQ+j9wayn0DK7YoNMyqWETZwzhXKseGvagPfvCf+3vWphX1szPIFOaWuR2D9aDpEIzsA6/C1q+4PuGkQMRTSdNiiUQRvRKqWQBJxINS0YGAWlCkYxnVuQJeBVkW1vM2qBGkuCVBE3L+Q7NXjmVZNtefAsNjGkxLdaGbSLenkmvYZQUwYh0lJ9cMrKun0UyDBJjaCgB2SxKHX+cNwj++sRg/",
+          "expires": "2021-11-23T03:00:24.000Z",
+          "maxAge": 7200,
+          "domain": "api.mailchimp.com",
+          "path": "/",
+          "httpOnly": true,
+          "hostOnly": false,
+          "creation": "2021-11-23T01:00:24.662Z",
+          "lastAccessed": "2021-11-23T01:00:24.662Z",
+          "id": "814738965724813"
+        },
+        {
+          "key": "bm_sv",
+          "value": "9330965F8E2C863A6655093623AA366F~a3N6/rvnl6liaSkkPCD4RWMAx4lyrehlDBPD3+FAe1qcqLDJaqK/IYSDIEMRzB9DCEHwoy5xdABmrT43kZSXiwUQKYvOa8rz0DpbaDijBEBo2TpLN4ankC71dAvlOraYBuiPlMNMCuZn8emDtRKbFnIYYXlTlU5s9TXHEWHSVVU=",
+          "maxAge": 6581,
+          "domain": "api.mailchimp.com",
+          "path": "/",
+          "httpOnly": true,
+          "hostOnly": false,
+          "creation": "2021-11-23T01:00:31.765Z",
+          "lastAccessed": "2021-11-23T01:10:50.307Z",
+          "id": "13472484223969894"
+        }
+      ],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_74dac4f9415a4353b783f1dd12011a7b",
+      "parentId": "wrk_a11e08458db54797b7605425d3a3f3b0",
+      "modified": 1637629176400,
+      "created": 1637629176400,
+      "fileName": "My Collection",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
