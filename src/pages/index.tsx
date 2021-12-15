@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react"
 import Head from 'next/head'
 import Router, { useRouter } from 'next/router'
+import { GetServerSideProps } from "next"
 
 const Home: React.FC = (props: any) => {
   const [loaded, setLoaded] = useState(false)
@@ -33,5 +34,13 @@ const Home: React.FC = (props: any) => {
     </>
   )
 }
+
+// export async function getServerSideProps() {
+//   Router.replace("https://www.google.com")
+//   return {
+//     props: {},
+//   }
+// }
+
 
 export default Home
