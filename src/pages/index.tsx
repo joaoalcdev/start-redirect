@@ -20,16 +20,16 @@ const Home: React.FC = (props: any) => {
     return <>
       <Head>
         <title> Redirecionando... </title>
-        <h1>carregando</h1>
       </Head>
+      {/* <h1>carregando</h1> */}
     </>
   }
   return (
     <>
       <Head>
         <title> Falha ao carregar... </title>
-        <h1>falha ao carregar</h1>
       </Head>
+      <h1>falha ao carregar</h1>
     </>
   )
 }

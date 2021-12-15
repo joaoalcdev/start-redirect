@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-  * {
+  /* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ export default createGlobalStyle`
     vertical-align: baseline;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-  }
+  } */
 
   /* Selection */
   h1::selection {
@@ -31,7 +31,7 @@ export default createGlobalStyle`
   }
 
   /* Custom Scroll */
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
   background-color: #222222;
   }
   ::-webkit-scrollbar {
@@ -41,5 +41,5 @@ export default createGlobalStyle`
     width: 10px;
     background-color: #333333;
   }
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; */
 `
