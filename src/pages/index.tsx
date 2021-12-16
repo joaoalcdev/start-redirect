@@ -5,42 +5,24 @@ import Router, { useRouter } from 'next/router'
 import { GetServerSideProps } from "next"
 
 const Home: React.FC = (props: any) => {
-  const [loaded, setLoaded] = useState(false)
-  useEffect(() => {
-    const { pathname } = Router
-    // conditional redirect
-    if (pathname == '/') {
-      // router.push
-      Router.replace('https://hotm.art/startenglishacademy')
-    } else {
-      setLoaded(true)
-    }
-  }, []);
-
-  if (!loaded) {
-    return <>
-      <Head>
-        <title> Redirecionando... </title>
-      </Head>
-      {/* <h1>carregando</h1> */}
-    </>
-  }
-  return (
-    <>
-      <Head>
-        <title> Falha ao carregar... </title>
-      </Head>
-      <h1>falha ao carregar</h1>
-    </>
-  )
+  return <>
+    <Head>
+      <title> Redirecionando... </title>
+    </Head>
+    {/* <h1>carregando</h1> */}
+  </>
 }
 
-// export async function getServerSideProps() {
-//   Router.replace("https://www.google.com")
-//   return {
-//     props: {},
-//   }
-// }
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  // redirect test: always redirect to '/login'
+  ctx.res.setHeader('Location', 'https://hotm.art/startenglishacademy');
+  ctx.res.statusCode = 302;
+  ctx.res.end();
+  Router.replace('https://hotm.art/startenglishacademy');
+  return {
+    props: {},
+  };
+};
 
 
 export default Home
