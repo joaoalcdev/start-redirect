@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import React, { useEffect, useState } from "react"
+import React from "react"
 import Head from 'next/head'
-import Router, { useRouter } from 'next/router'
+import Router from 'next/router'
 import { GetServerSideProps } from "next"
 
 const Home: React.FC = (props: any) => {
@@ -9,7 +9,6 @@ const Home: React.FC = (props: any) => {
     <Head>
       <title> Redirecionando... </title>
     </Head>
-    {/* <h1>carregando</h1> */}
   </>
 }
 
