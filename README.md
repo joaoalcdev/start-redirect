@@ -22,8 +22,8 @@ This project was developed with the following technologies:
 Clone the project and access its folder.
 
 ```bash
-$ git clone https://github.com/joaoalcdev/start-capture_page
-$ cd start-capture_page
+$ git clone https://github.com/joaoalcdev/start-redirect
+$ cd start-redirect
 ```
 
 To start it, follow the steps below:
@@ -39,7 +39,7 @@ The app is available in your browser by address -> http://localhost:3000.
 
 ## 💻 Project Desc
 
-O [Start - English Academy](https://www.erikagondim.com.br/) is a project that teaches a revolutionary method for learning English. Project designed to redirect people who enter the domain.
+[Start - English Academy](https://www.erikagondim.com.br/) is a project that teaches a revolutionary method for learning English. Project designed to redirect people who enter the domain.
 
 The project was developed by [João Alcântara](https://github.com/joaoalcdev).
 
