@@ -39,7 +39,7 @@ The app is available in your browser by address -> http://localhost:3000.
 
 ## 💻 Project Desc
 
-[Start - English Academy](https://www.erikagondim.com.br/) is a project that teaches a revolutionary method for learning English. Project designed to redirect people who enter the domain.
+[Start - English Academy | Redirect](https://startenglishacademy.com.br/) is a project that teaches a revolutionary method for learning English. Project designed to redirect people who enter the domain.
 
 The project was developed by [João Alcântara](https://github.com/joaoalcdev).
 
