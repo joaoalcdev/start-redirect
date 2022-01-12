@@ -13,7 +13,7 @@ const Home: React.FC = (props: any) => {
   return <>
     <Head>
       <title> Estamos te redirecionando... </title>
-      {/* <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" /> */}
+      <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" />
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
