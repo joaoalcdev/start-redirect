@@ -44,15 +44,15 @@ const Home: React.FC = (props: any) => {
   </>
 }
 
-// export const getServerSideProps: GetServerSideProps = async (ctx) => {
-//   // redirect test: always redirect to '/login'
-//   ctx.res.setHeader('Location', 'https://hotm.art/startenglishacademy');
-//   ctx.res.end();
-//   Router.replace('https://hotm.art/startenglishacademy');
-//   return {
-//     props: {},
-//   };
-// };
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  // redirect test: always redirect to '/login'
+  ctx.res.setHeader('Location', 'https://hotm.art/startenglishacademy');
+  ctx.res.end();
+  Router.replace('https://hotm.art/startenglishacademy');
+  return {
+    props: {},
+  };
+};
 
 
 export default Home
