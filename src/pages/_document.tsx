@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" />
+          {/* <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" /> */}
           <noscript>
             <img
               height="1"
