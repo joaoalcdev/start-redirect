@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Document, {
   DocumentInitialProps,
@@ -42,7 +44,15 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt">
         <Head>
-          <meta name="facebook-domain-verification" content="imq0k9nbedlznbwu58jy3u44n4z27d" />
+          <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" />
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: 'none' }}
+              src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
+            />
+          </noscript>
           {/*  Description Tags  */}
           <meta
             property="og:title"
