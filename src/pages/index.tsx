@@ -41,6 +41,9 @@ const Home: React.FC = (props: any) => {
         />
       </noscript>
     </Head>
+    <head>
+      <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" />
+    </head>
   </>
 }
 

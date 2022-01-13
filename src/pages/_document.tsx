@@ -282,6 +282,9 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           ></link>
         </Head>
+        <head>
+          <meta name="facebook-domain-verification" content="51k0xps7c3tskufq8djv2y1fjcrq5t" />
+        </head>
         <body>
           <Main />
           <NextScript />
