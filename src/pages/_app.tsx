@@ -27,7 +27,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
             fbq('init', ${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID});
             fbq('init', '598378521207336');
             fbq('track', "PageView");
-            fbq('track', 'Purchase', {currency: "BRL", value: 29.90});
+            fbq('track', 'Purchase', {value: "10,00", moeda: 'BRL'});
             `
           }}
         />
